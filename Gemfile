@@ -3,8 +3,8 @@ ruby '~> 3.1.3'
 
 source "https://rubygems.org"
 
-gem 'sqlite3'
 gem 'sequel'
+gem 'sqlite3'
 
 group :development do
   gem 'solargraph'
